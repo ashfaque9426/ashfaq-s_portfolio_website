@@ -62,7 +62,8 @@ body {
 
 @media screen and (max-width: 576px) {
     .projectPrevHeading {
-        padding-inline: 10px;
+        font-size: large;
+        padding-inline: 15px;
     }
     .swiperContainer {
         padding: 0 !important;

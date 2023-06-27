@@ -87,7 +87,7 @@ const NavigationBar = () => {
                         }
                     </ul>
                     <div className='pb-3 topNavBtn'>
-                        <a href="/resume.pdf" download="resume.pdf" style={{background: '#282a39'}} className='btn text-light'>Download Resume</a>
+                        <a href="/resume.pdf" download="resume.pdf" style={{background: '#282a39'}} className='btn text-light resumeBtn'>Download Resume</a>
                     </div>
                 </div>
             </div>

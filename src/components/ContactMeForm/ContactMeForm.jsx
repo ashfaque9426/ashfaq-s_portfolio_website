@@ -21,7 +21,7 @@ const ContactMeForm = () => {
     };
     return (
         <Fade>
-            <section id='contactSection' style={{ marginTop: '100px' }}>
+            <section id='contactSection' style={{ marginBlock: '100px' }}>
                 <h2 id='formHeading' className='px-5 fw-bold'>Contact Me</h2>
                 <form ref={form} onSubmit={sendEmail} className='m-5 p-5 mt-3 border rounded-3 contactForm' style={{ backgroundColor: "#f8f9fa" }}>
                     <div className="row">
