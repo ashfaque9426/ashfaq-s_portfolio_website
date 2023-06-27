@@ -1,0 +1,5 @@
+@media screen and (min-width: 932px) {
+    .topNavBtn {
+        padding-bottom: 0 !important;
+    }
+}

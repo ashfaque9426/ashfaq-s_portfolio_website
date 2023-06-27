@@ -1,0 +1,21 @@
+@media screen and (min-width: 1535px) {
+    .banner img {
+        margin-left: 150px;
+    }   
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        width: 100vw !important;
+        height: 95vh !important;
+    }
+    .banner img {
+        margin-top: 50px;
+    }   
+}
+
+@media screen and (max-width: 400px){
+    .banner img {
+        margin-top: 0px;
+    }
+}

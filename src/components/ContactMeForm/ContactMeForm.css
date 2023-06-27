@@ -1,0 +1,11 @@
+.submitBtn:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 576px) {
+    .contactForm {
+        padding: 0 !important;
+        background-color: #eeeeee !important;
+        border: 0 !important;
+    }
+}
