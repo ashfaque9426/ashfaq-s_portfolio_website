@@ -30,14 +30,14 @@ const NavigationBar = () => {
                     return (
                         rect.top >= 0 &&
                         rect.left >= 0 &&
-                        rect.bottom <= (document.documentElement.clientHeight - 550) &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
                         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
                     );
                 }
                 const headingElement = document.getElementById('skillsHeading');
                 const formHeading = document.getElementById('formHeading');
                 const isInView = isInViewport(headingElement);
-                const isInView2 = isInViewport(formHeading)
+                const isInView2 = isInViewport(formHeading);
                 if (isInView) {
                     document.getElementById('skillTab').classList.add('fw-bold');
                 } else {

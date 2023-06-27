@@ -30,9 +30,9 @@ const ProjectReviewHome = () => {
                     className="mySwiper customSwipClass"
                     style={{ height: '750px' }}
                 >
-                    <SwiperSlide style={{ backgroundImage: `url(${prevImg3})`, backgroundSize: 'cover' }}><Link to='https://the-food-artisan.web.app/' className='fw-bold text-light fs-2' target="_blank">The Food Artisan</Link></SwiperSlide>
-                    <SwiperSlide style={{ backgroundImage: `url(${prevImg2})`, backgroundSize: 'cover' }}><Link to='https://toy-marketplace-client-side.web.app/' className='fw-bold text-light fs-2' target="_blank">Figuarama</Link></SwiperSlide>
-                    <SwiperSlide style={{ backgroundImage: `url(${prevImg1})`, backgroundSize: 'cover' }}><Link to='https://summer-camp-client-side-f02f8.web.app' className='fw-bold text-light fs-2' target="_blank">Shutter Safari</Link></SwiperSlide>
+                    <SwiperSlide style={{ backgroundImage: `url(${prevImg3})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}><Link to='https://the-food-artisan.web.app/' className='fw-bold text-light fs-2' target="_blank">The Food Artisan</Link></SwiperSlide>
+                    <SwiperSlide style={{ backgroundImage: `url(${prevImg2})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}><Link to='https://toy-marketplace-client-side.web.app/' className='fw-bold text-light fs-2' target="_blank">Figuarama</Link></SwiperSlide>
+                    <SwiperSlide style={{ backgroundImage: `url(${prevImg1})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}><Link to='https://summer-camp-client-side-f02f8.web.app' className='fw-bold text-light fs-2' target="_blank">Shutter Safari</Link></SwiperSlide>
                 </Swiper>
             </Fade>
         </section>
