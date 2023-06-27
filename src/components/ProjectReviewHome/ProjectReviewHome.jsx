@@ -28,7 +28,7 @@ const ProjectReviewHome = () => {
                     pagination={pagination}
                     modules={[Pagination]}
                     className="mySwiper customSwipClass"
-                    style={{ height: '750px' }}
+                    style={{ height: '480px' }}
                 >
                     <SwiperSlide style={{ backgroundImage: `url(${prevImg3})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}><Link to='https://the-food-artisan.web.app/' className='fw-bold text-light fs-2' target="_blank">The Food Artisan</Link></SwiperSlide>
                     <SwiperSlide style={{ backgroundImage: `url(${prevImg2})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}><Link to='https://toy-marketplace-client-side.web.app/' className='fw-bold text-light fs-2' target="_blank">Figuarama</Link></SwiperSlide>
