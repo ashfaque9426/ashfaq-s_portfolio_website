@@ -89,20 +89,20 @@ const ProjectDetailComponents = () => {
                             <li>This project fetch required informations from a remote database.</li>
                             <li>Users personal informations are jwt secure.</li>
                             <li>This Project has built using React.js Bootstrap, Firebase, Env, Express.js and Mongodb.</li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
                         </ul>
                     </div>
                 </div>
@@ -173,16 +173,16 @@ const ProjectDetailComponents = () => {
                             <li>Required informations are fetched from a remote database.</li>
                             <li>A specific users activities and personal informations are jwt secure.</li>
                             <li>Tools that are used for building this project are React.js, React Bootstrap, Firebase, Env, Express.js, MongoDB, jwt</li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
-                            <li style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
+                            <li className='dumpLis' style={{visibility: 'hidden'}}></li>
                         </ul>
                     </div>
                 </div>

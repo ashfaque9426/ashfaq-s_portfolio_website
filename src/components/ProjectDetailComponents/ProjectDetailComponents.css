@@ -5,4 +5,7 @@
     .proCompContainer article {
         padding-inline: 0;
     }
+    .dumpLis {
+        display: none !important;
+    }
 }
