@@ -9,7 +9,7 @@ import './HomePageBanner.css'
 const HomePageBanner = () => {
     return (
         <section className='d-flex flex-column flex-md-row justify-content-center align-items-center text-white gap-5 banner' style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: "cover", backgroundPosition: "center", height: "calc(100vh - 10vh)"}}>
-            <Slide>
+            <Slide direction='left'>
                 <div className='d-flex flex-column'>
                     <h2>Hello! I am Ashfaq-Ul-Alim</h2>
                     <p className='mb-0 fs-4'>I am a <strong>MERN Stack</strong> Web Developer</p>

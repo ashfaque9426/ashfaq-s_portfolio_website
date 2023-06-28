@@ -2,14 +2,15 @@
 import React from 'react';
 import { MDBProgress, MDBProgressBar } from 'mdb-react-ui-kit';
 import { Slide } from 'react-awesome-reveal';
+import './MySkills.css';
 
 const MySkills = () => {
     return (
-        <section id='skills' style={{marginTop: '100px'}} className='mb-5'>
-            <h2 id='skillsHeading' className='px-5 mb-3 fw-bold'>My Skills</h2>
+        <section id='skills' style={{marginBlock: '100px'}} className='mb-5'>
+            <h2 id='skillsHeading' className='mx-5 mb-3 fw-bold'>My Skills</h2>
             <div className='d-flex flex-column flex-md-row justify-content-center  align-items-center align-items-md-start gap-5'>
                 <Slide className='w-100'>
-                    <div className='w-100 px-5'>
+                    <div className='w-100 px-5 frontEndContainer'>
                         <h3 className='mb-3'>Front End</h3>
                         <div>
                             <div>
@@ -54,7 +55,7 @@ const MySkills = () => {
                     </div>
                 </Slide>
                 <Slide className='w-100' direction='right'>
-                    <div className='w-100 px-5'>
+                    <div className='w-100 px-5 backEndContainer'>
                         <h3 className='mb-3'>Back End</h3>
                         <div>
                             <div>
