@@ -1,3 +1,10 @@
 .abtPageSectionTxt {
     text-align: justify;
 }
+
+@media screen and (max-width: 576px) {
+    .abtPageSectionTxt {
+        margin-inline: 20px !important;
+        word-spacing: -1.9px;
+    }
+}

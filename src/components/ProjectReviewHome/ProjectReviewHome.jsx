@@ -7,8 +7,8 @@ import './ProjectReviewHome.css';
 import { Pagination } from "swiper";
 import { Link } from 'react-router-dom';
 import prevImg1 from '../../assets/projectImages/image.jpg';
-import prevImg2 from '../../assets/projectImages/prev2.jpg';
-import prevImg3 from '../../assets/projectImages/prev3.jpg';
+import prevImg2 from '../../assets/projectImages/prev3.jpg';
+import prevImg3 from '../../assets/projectImages/foodScrsht.png'
 import { Fade } from 'react-awesome-reveal';
 
 
