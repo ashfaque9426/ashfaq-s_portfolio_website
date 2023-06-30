@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="my-5">
+        <div style={{position: 'relative', zIndex: '2'}} className="my-5">
 
             <footer className="bg-dark text-center text-lg-start text-white">
                 
