@@ -10,7 +10,7 @@ const AboutPageBanner = () => {
             <img style={{ width: "200px", aspectRatio: "1", objectPosition: "top" }} className='object-fit-cover rounded-circle mt-5' src={`${myImage}`} alt="Ashfaq's Image" />
             
             <TypeAnimation
-                sequence={['Hi, This is Ashfaq-Ul-Alim', 1000, 'I am a MERN stack Web Developer', 1000, 'Today I am going to share with you my story regarding Web Development journey.']}
+                sequence={['Hi, This is Ashfaq-Ul-Alim', 1000, 'I am a MERN Stack Web Developer', 1000, 'Today, I am going to share with you my story regarding Web Development journey.']}
                 wrapper='h3'
                 speed={20}
                 style={{marginBlock: '30px', marginInline: '20px'}}
